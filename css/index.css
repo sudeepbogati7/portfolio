@@ -24,7 +24,8 @@
     transition: all .4s ease;
   }
   ::-webkit-scrollbar-track {
-    background: #101010; 
+    /* background: #101010;  */
+    background: #242424;
     border-radius: 4px;
     width: 4px;
   }
@@ -39,7 +40,8 @@ input[type=number] {
   -moz-appearance: textfield;
 }
   html{
-    background: #101010;
+    /* background: #101010; */
+    background: #242424;
     
   }
   #loader{
@@ -51,7 +53,8 @@ input[type=number] {
       position: fixed;
       z-index:100;
       font-family: poppins;
-      background-color: #202020;
+      /* background-color: #202020; */
+      background-color: #242424;
       color: whitesmoke;
       font-size: 70px;
       width: 100%;
@@ -61,10 +64,12 @@ body{
     height: auto;
     overflow-x: hidden;
     width: 100%;
-    background: #171717;
+    /* background: #171717; */
+    background: #242424;
 }
 #header{
-    background:#171717;
+    /* background:#171717; */
+    background: #242424;
     height: 100vh;
     width: 100%;;
     overflow: hidden;
