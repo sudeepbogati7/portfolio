@@ -55,7 +55,7 @@ html{
       z-index:100;
       font-family: poppins;
       /* background-color: #202020; */
-      background-color: #242424;
+      background-color: #474647;
       color: whitesmoke;
       font-size: 70px;
       width: 100%;
@@ -66,11 +66,11 @@ body{
     overflow-x: hidden;
     width: 100%;
     /* background: #171717; */
-    background: #242424;
+    background: #474647;
 }
 #header{
     /* background:#171717; */
-    background: #242424;
+    background: #474647;
     height: 100vh;
     width: 100%;;
     overflow: hidden;
@@ -505,6 +505,7 @@ body{
     height:380px;
     padding: 30px;
     border-radius: 40px;
+    object-fit: contain;
 }
 .about-img {
     width: 550px;
@@ -513,6 +514,7 @@ body{
     padding-top: 10px;
     border-radius: 40px;
 }
+
 
 #about-content a{
     text-decoration: none;
@@ -602,6 +604,9 @@ li.d-flex img{
         background-color: white;
         border-radius: 10px;
      
+    }
+    .header-image img{
+        display: none; 
     }
 }
 /* End =====================================================*/
@@ -1463,11 +1468,11 @@ For devices with smaller width like mobile phone
     .contact{
         display: none;
     }
-    .header-image{
+    /* .header-image{
         float: right;
         height: auto;
         width: 0%;   
-    }
+    } */
     .social-media-links{
         width: 100%;
         left: 0;
@@ -1921,8 +1926,11 @@ for tabs and large phones
     .header-image{
         float: right;
         height: auto;
-        width: 0%;   
+        width: 100%;   
     }
+    /* .header-image img{
+        display: none; 
+    } */
     .social-media-links{
         width: 100%;
         left: 0;
