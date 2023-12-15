@@ -265,6 +265,7 @@ body{
     width: auto;
 
 }
+
 .header-content .firstline{
     z-index: 2;
     font-weight:700;
@@ -1489,6 +1490,19 @@ For devices with smaller width like mobile phone
         padding-left: 0px;
         z-index: 2;
         text-align: center;
+    }
+    .header-content .firstline{
+        z-index: 2;
+        font-weight:700;
+        font-family: poppins;
+        font-size: 34px;
+    }
+    .header-content .secondline{
+        z-index: 2;
+        font-size: 20px;
+        padding-top:20px ;
+        font-weight:500;
+        color: rgb(255, 255, 255,.8);
     }
     #contact{
         display: none;
