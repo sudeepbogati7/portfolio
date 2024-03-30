@@ -10,7 +10,7 @@
     opacity: 1;
     animation: breakeranimate 2s linear;
     display: none;
-    transition: all .4s ease;
+    transition: all .2s ease;
     border-radius: 5px;
     z-index: 10;
     position: fixed;
@@ -32,7 +32,7 @@
     opacity: 1;
     animation: breakeranimatetwo 2s linear;
     display: none;
-    transition: all .4s ease;
+    transition: all .2s ease;
     z-index: 10;
     border-radius: 25px;
     position: fixed;
