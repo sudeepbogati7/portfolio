@@ -47,9 +47,13 @@ html{
 }
 
 .loader {
+
  position: relative;
+ margin: 50vh auto;
  width: 2.5em;
  height: 2.5em;
+ text-align: center;
+ /* background-color: red; */
  transform: rotate(165deg);
 }
 
@@ -115,28 +119,23 @@ html{
  }
 }
 
-.loader {
- position: absolute;
- top: calc(50% - 1.25em);
- left: calc(50% - 1.25em);
-}
 body{
     user-select: none;
     height: auto;
     overflow-x: hidden;
     width: 100%;
     /* background: #171717; */
-    background: #474647;
+    background: transparent;
 }
 #header{
     /* background:#171717; */
-    background: #474647;
+    background: transparent;
     height: 100vh;
     width: 100%;;
     overflow: hidden;
     animation: scale 1.5s ease;
     position:relative;
-    display: block;
+    display: none;
 }
 #particles{
     position: absolute;
@@ -155,7 +154,7 @@ body{
     z-index: 5;
     background-color:#020202;
     transform: translateY(-200%);
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
